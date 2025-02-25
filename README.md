@@ -7,7 +7,7 @@ I'm a Computer Engineering student passionate about software development. I love
 Here are some of the projects I've worked on:
 
 * [Fullstack Poll System](https://github.com/enmanuelrdgz/fullstack-poll-system.git): A simple Poll System build with SpringBoot and Next.js
-* [Host Info API](link-to-project-2): An API that shows info about the host
+* [Host Info API](https://github.com/enmanuelrdgz/host-info-api): An API that shows info about the host
 
 ## ️ 🛠️ Technologies
 
