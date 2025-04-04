@@ -1,15 +1,10 @@
-# ¡Hola! 👋
+# 👋 Hi, I'm Enmanuel
 
-¡Bienvenido a mi perfil de GitHub! Soy Enmanuel Rodriguez, un apasionado desarrollador de software.
+I'm a software developer who focuses on building web applications using **Java**. I enjoy working with tools like **Spring Boot**, **SQL**, and building APIs that are clean and easy to use.
 
-## Tecnologías y Herramientas
-- 💻 Desarrollo: Java, JavaScript/TypeScript
-- 🛠️ Herramientas: Docker, Git
+### What I do
+- Develop backend systems and REST APIs
+- Write code that's clean, tested, and easy to maintain
+- Keep learning new things to get better at what I do
 
-## Proyectos Destacados
-- [Survey Tool](https://github.com/lizardwine/litio): Una herramienta para crear encuestas sencillas.
-
-## Contribuciones
-[![Contribuciones](https://img.shields.io/badge/Contribuciones-bienvenidas-brightgreen)](CONTRIBUTING.md)
-
-¡No dudes en explorar mis repositorios y contribuir! 😄
+Feel free to check out my projects!
