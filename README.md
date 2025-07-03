@@ -18,18 +18,6 @@
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=enmanuelrdgz&layout=compact&langs_count=8&theme=tokyonight"/>
 </div>
 
-## 🔥 Racha de Contribuciones
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=enmanuelrdgz&theme=tokyonight" alt="GitHub Streak" />
-</div>
-
-## 📈 Actividad de Contribución
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=enmanuelrdgz&theme=tokyo-night&hide_border=true" />
-</div>
-
 ## 🎯 Proyectos Destacados
 
 - 📱 **[Aplicación de Ecommerce](enlace)** - App móvil desarrollada con React Native y Expo
