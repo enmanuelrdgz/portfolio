@@ -27,17 +27,3 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/enmanuel-rodriguez-51405a28a)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:enmaundostres@gmail.com)
-
----
-
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=TU_USERNAME&color=blueviolet&style=flat-square&label=Visitas+al+perfil" />
-</div>
-
-<div align="center">
-  
-  **"El código es poesía escrita en lógica"** ✨
-  
-</div>
-```
-- **Secciones organizadas** y fáciles de leer
