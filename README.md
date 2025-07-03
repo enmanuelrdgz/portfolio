@@ -1,13 +1,55 @@
-<h3 align="center">Skills</h3>
-<p align="center">
-  <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer" style="text-decoration: none;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/></a>
-  <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer" style="text-decoration: none;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/></a>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer" style="text-decoration: none;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/></a>
-  <a href="https://reactjs.org/" target="_blank" rel="noreferrer" style="text-decoration: none;"><img src="https://github.com/tandpfun/skill-icons/blob/main/icons/React-Dark.svg" alt="react" width="40" height="40"/></a>
-  <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/></a>
-  <a href="https://www.java.com" target="_blank" rel="noreferrer" style="text-decoration: none;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/></a>
-  <a href="https://git-scm.com/" target="_blank" rel="noreferrer" style="text-decoration: none;"><img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/></a>
-  <a href="https://www.mysql.com/" target="_blank" rel="noreferrer" style="text-decoration: none;"><img src="https://github.com/tandpfun/skill-icons/blob/main/icons/MySQL-Dark.svg" alt="mysql" width="40" height="40"/></a>
-</p>
+## 🛠️ Tecnologías y Herramientas
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=enmanuelrdgz&layout=pie&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
+### Frontend & Mobile
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+
+### Backend & Database
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+
+### DevOps & Tools
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+
+## 📊 Estadísticas de GitHub
+
+<div align="center">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=enmanuelrdgz&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=enmanuelrdgz&layout=compact&langs_count=8&theme=tokyonight"/>
+</div>
+
+## 🔥 Racha de Contribuciones
+
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=enmanuelrdgz&theme=tokyonight" alt="GitHub Streak" />
+</div>
+
+## 📈 Actividad de Contribución
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=enmanuelrdgz&theme=tokyo-night&hide_border=true" />
+</div>
+
+## 🎯 Proyectos Destacados
+
+- 📱 **[Aplicación de Ecommerce](enlace)** - App móvil desarrollada con React Native y Expo
+- ☕ **[Poll System](enlace)** - Backend en Java con PostgreSQL
+
+## 📫 Conecta conmigo
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/enmanuel-rodriguez-51405a28a)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:enmaundostres@gmail.com)
+
+---
+
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=TU_USERNAME&color=blueviolet&style=flat-square&label=Visitas+al+perfil" />
+</div>
+
+<div align="center">
+  
+  **"El código es poesía escrita en lógica"** ✨
+  
+</div>
+```
+- **Secciones organizadas** y fáciles de leer
