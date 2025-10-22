@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enmanuel Rodriguez - Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: #0a0a0a;
+            color: #e5e5e5;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 80px 40px;
+        }
+
+        header {
+            margin-bottom: 120px;
+            opacity: 0;
+            animation: fadeIn 0.8s ease forwards;
+            display: flex;
+            align-items: center;
+            gap: 60px;
+        }
+
+        .header-content {
+            flex: 1;
+        }
+
+        .profile-image {
+            width: 200px;
+            height: 200px;
+            border-radius: 8px;
+            object-fit: cover;
+            filter: grayscale(100%) contrast(1.1);
+            border: 1px solid #1a1a1a;
+            transition: all 0.3s ease;
+        }
+
+        .profile-image:hover {
+            filter: grayscale(0%) contrast(1);
+            border-color: #333;
+        }
+
+        h1 {
+            font-size: 3.2em;
+            font-weight: 300;
+            color: #ffffff;
+            margin-bottom: 12px;
+            letter-spacing: -0.02em;
+        }
+
+        .subtitle {
+            font-size: 1.1em;
+            color: #666;
+            font-weight: 300;
+        }
+
+        .bio {
+            font-size: 1em;
+            color: #999;
+            font-weight: 300;
+            line-height: 1.8;
+            margin-top: 24px;
+            max-width: 600px;
+        }
+
+        .projects {
+            display: flex;
+            flex-direction: column;
+            gap: 80px;
+        }
+
+        .project-card {
+            border-top: 1px solid #1a1a1a;
+            padding-top: 40px;
+            opacity: 0;
+            animation: fadeInUp 0.8s ease forwards;
+            transition: all 0.3s ease;
+            display: flex;
+            gap: 40px;
+            align-items: flex-start;
+        }
+
+        .project-content {
+            flex: 1;
+        }
+
+        .project-image {
+            width: 280px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 6px;
+            border: 1px solid #1a1a1a;
+            filter: grayscale(100%) contrast(1.1) brightness(0.8);
+            transition: all 0.3s ease;
+        }
+
+        .project-card:hover .project-image {
+            filter: grayscale(0%) contrast(1) brightness(1);
+            border-color: #333;
+        }
+
+        .project-card:nth-child(1) { animation-delay: 0.2s; }
+        .project-card:nth-child(2) { animation-delay: 0.4s; }
+        .project-card:nth-child(3) { animation-delay: 0.6s; }
+
+        .project-card:hover {
+            transform: translateX(8px);
+        }
+
+        .project-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 20px;
+        }
+
+        .project-title {
+            font-size: 1.8em;
+            font-weight: 400;
+            color: #ffffff;
+            letter-spacing: -0.01em;
+        }
+
+        .project-role {
+            font-size: 0.85em;
+            color: #666;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+        }
+
+        .project-description {
+            font-size: 1em;
+            color: #999;
+            margin-bottom: 30px;
+            font-weight: 300;
+            line-height: 1.8;
+        }
+
+        .tech-stack {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin-bottom: 24px;
+        }
+
+        .tech-tag {
+            font-size: 0.8em;
+            color: #666;
+            padding: 6px 14px;
+            border: 1px solid #1a1a1a;
+            border-radius: 4px;
+            transition: all 0.2s ease;
+            font-weight: 300;
+        }
+
+        .tech-tag:hover {
+            color: #fff;
+            border-color: #333;
+        }
+
+        .project-link {
+            color: #fff;
+            text-decoration: none;
+            font-size: 0.9em;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            transition: all 0.2s ease;
+            opacity: 0.6;
+        }
+
+        .project-link:hover {
+            opacity: 1;
+            gap: 12px;
+        }
+
+        .project-link::after {
+            content: '→';
+            font-size: 1.2em;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 60px 24px;
+            }
+
+            header {
+                flex-direction: column;
+                gap: 40px;
+                text-align: center;
+            }
+
+            .project-card {
+                flex-direction: column;
+            }
+
+            .project-image {
+                width: 100%;
+                height: 180px;
+            }
+
+            .bio {
+                max-width: 100%;
+            }
+
+            .profile-image {
+                width: 160px;
+                height: 160px;
+            }
+
+            h1 {
+                font-size: 2.2em;
+            }
+
+            .project-header {
+                flex-direction: column;
+                gap: 8px;
+            }
+
+            .project-title {
+                font-size: 1.5em;
+            }
+
+            .projects {
+                gap: 60px;
+            }
+        }
+
+        /* Subtle gradient overlay */
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle at 20% 50%, rgba(30, 30, 30, 0.3) 0%, transparent 50%);
+            pointer-events: none;
+            z-index: -1;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="header-content">
+                <h1>Enmanuel Rodriguez</h1>
+                <p class="subtitle">Desarrollador de Software</p>
+                <p class="bio">
+                    Me apasiona la tecnología en todas sus formas. Mi experiencia principal está en el desarrollo 
+                    de software, pero disfruto explorando nuevas áreas como el diseño de hardware y la electrónica, 
+                    siempre buscando expandir mis conocimientos y habilidades técnicas.
+                </p>
+            </div>
+            <img src="image.jpg" alt="Enmanuel Rodriguez" class="profile-image">
+        </header>
+
+        <div class="projects">
+            <div class="project-card">
+                <div class="project-content">
+                    <div class="project-header">
+                        <h2 class="project-title">ASIC VGA Hello World</h2>
+                        <span class="project-role">Personal</span>
+                    </div>
+                    
+                    <p class="project-description">
+                        Un proyecto de diseño ASIC que implementa un controlador VGA capaz de mostrar gráficos en pantalla. 
+                        Este proyecto demuestra el control de temporización VGA, generación de señales de sincronización y 
+                        renderizado de píxeles para crear una salida visual funcional.
+                    </p>
+
+                    <div class="tech-stack">
+                        <span class="tech-tag">Verilog</span>
+                        <span class="tech-tag">VGA Protocol</span>
+                        <span class="tech-tag">FPGA</span>
+                        <span class="tech-tag">Digital Design</span>
+                        <span class="tech-tag">Hardware Description</span>
+                    </div>
+
+                    <a href="#" class="project-link">Ver proyecto</a>
+                </div>
+                <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop" alt="ASIC VGA Project" class="project-image">
+            </div>
+
+            <div class="project-card">
+                <div class="project-content">
+                    <div class="project-header">
+                        <h2 class="project-title">CPUy</h2>
+                        <span class="project-role">Colaborador</span>
+                    </div>
+                    
+                    <p class="project-description">
+                        Un procesador CPU completo implementado en la plataforma Caravel de Google/Skywater. 
+                        Colaboro activamente con el creador del proyecto en el desarrollo y optimización de este 
+                        CPU de código abierto, trabajando en la arquitectura del procesador, pruebas de integración 
+                        y documentación técnica.
+                    </p>
+
+                    <div class="tech-stack">
+                        <span class="tech-tag">Caravel</span>
+                        <span class="tech-tag">Skywater PDK</span>
+                        <span class="tech-tag">CPU Design</span>
+                        <span class="tech-tag">Open Source</span>
+                        <span class="tech-tag">RISC Architecture</span>
+                    </div>
+
+                    <a href="#" class="project-link">Ver proyecto</a>
+                </div>
+                <img src="https://images.unsplash.com/photo-1555680202-c86f0e12f086?w=600&h=400&fit=crop" alt="CPU Project" class="project-image">
+            </div>
+
+            <div class="project-card">
+                <div class="project-content">
+                    <div class="project-header">
+                        <h2 class="project-title">Wordle Game</h2>
+                        <span class="project-role">Personal</span>
+                    </div>
+                    
+                    <p class="project-description">
+                        Una aplicación móvil desarrollada en React Native que recrea el popular juego de adivinanza de palabras. 
+                        Los jugadores deben descubrir la palabra correcta en seis intentos, recibiendo retroalimentación visual 
+                        sobre las letras correctas y su posición. La app incluye interfaz intuitiva, animaciones fluidas, 
+                        sistema de puntuación y estadísticas de juego.
+                    </p>
+
+                    <div class="tech-stack">
+                        <span class="tech-tag">React Native</span>
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">Mobile Development</span>
+                        <span class="tech-tag">Cross-Platform</span>
+                        <span class="tech-tag">Game Design</span>
+                    </div>
+
+                    <a href="#" class="project-link">Ver proyecto</a>
+                </div>
+                <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?w=600&h=400&fit=crop" alt="Wordle Game Project" class="project-image">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
